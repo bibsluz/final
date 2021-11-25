@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Bianca</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <link rel="stylesheet" href="css/posicaoRelativa.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Clássica</a>
+        <a href="EquacaoEntreDoisPontos.html" >Equações Dois pontos</a>
+        <a href="DistanciaEntrePontoEReta.html">Distância entre Ponto e reta</a>
+        <a href="EquacaoReduzida.html">Equação reduzida</a>
+        <a href="PosicaoRelativaDasRetas.html" class="selecionada">Posição Relativa das Retas</a>
+    </nav>
+    <div class="Calculadora">
+        <input type="text" disabled class="display" id="display">
+
+
+        <div class="pontos">
+            <label>1° Reta</label>
+            <div><span>M:</span><input type="number" name="" class="ponto" id="M"></div>
+            <div><span>N:</span><input type="number" name="" class="ponto" id="N"></div>
+        </div>
+        <div class="pontos">
+            <label>2° Reta</label>
+            <div><span>M:</span><input type="number" name="" class="ponto" id="M1"></div>
+            <div><span>N:</span><input type="number" name="" class="ponto" id="N1"></div>
+        </div>
+        <div class="primeira-linha">
+            <button onclick="limpar()">LIMPAR</button>
+        </div>
+    
+        <div class="segunda-linha">
+            <button onclick="PosicaoR()">Posição Relativa Das Retas</button>
+        </div>
+    <script src="JavaScript/Relativa.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>
